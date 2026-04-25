@@ -56,7 +56,7 @@ description: "Discover beautiful hijab styles, modest fashion trends, muslimah o
                 {% if second_post.image %}
                 <div class="col-md-4">
                     <a href="{{site.baseurl}}{{second_post.url}}">
-                        <img class="w-100 ratio-4x3 cover"
+                        <img class="thumb w-100 ratio-4x3 cover"
                             src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}"
                             alt="{{ second_post.title }}">
                     </a>
@@ -118,7 +118,7 @@ description: "Discover beautiful hijab styles, modest fashion trends, muslimah o
                 {% if fourth_post.image %}
                 <div class="col-md-4">
                     <a href="{{site.baseurl}}{{fourth_post.url}}">
-                        <img class="w-100 ratio-4x3 cover"
+                        <img class="thumb w-100 ratio-4x3 cover"
                             src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}"
                             alt="{{ fourth_post.title }}">
                     </a>
