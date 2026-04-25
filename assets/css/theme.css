@@ -1057,5 +1057,5 @@ div.a2a_full_footer {
 }
 
 .thumb {
-	width: 140px!important;
+	max-width: 130px!important;
 }
