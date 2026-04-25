@@ -3,7 +3,7 @@ name: 'Hijaby'
 description: 'a modern website for beautiful hijab styles, modest fashion inspiration, and muslimah lifestyle ideas.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/'
+baseurl: ''
 disqus: 'hijabi'
 email: 'admin@yourdomain.com'
 mailchimp-list: 'https://www.aridjaya.com'
@@ -30,7 +30,7 @@ authors:
     jane:
       name:           Jane
       site:           https://www.aridjaya.com
-      avatar:         /assets/images/avatar2.jpg
+      avatar:         assets/images/avatar2.jpg
       bio:            "Blogger and fashion enthusiast who loves exploring modern hijab styles and modest fashion inspiration."
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/
