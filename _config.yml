@@ -1,10 +1,10 @@
 # Site
-name: 'Jilbab'
+name: 'Hijaby'
 description: 'a modern website for beautiful hijab styles, modest fashion inspiration, and muslimah lifestyle ideas.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/jilbab'
-disqus: 'jilbab'
+baseurl: '/'
+disqus: 'hijabi'
 email: 'admin@yourdomain.com'
 mailchimp-list: 'https://www.aridjaya.com'
 
