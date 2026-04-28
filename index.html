@@ -55,7 +55,7 @@ modern women."
             {%- assign second_post = site.posts[1] -%}
             <div class="mb-3 d-flex align-items-center">
                 {% if second_post.image %}
-                <div class="col-md-4">
+                <div class="col-md-4 p-0">
                     <a href="{{site.baseurl}}{{second_post.url}}">
                         <img class="thumb w-100 ratio-4x3 cover"
                             src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}"
@@ -86,7 +86,7 @@ modern women."
             {%- assign third_post = site.posts[2] -%}
             <div class="mb-3 d-flex align-items-center">
                 {% if third_post.image %}
-                <div class="col-md-4">
+                <div class="col-md-4 p-0">
                     <a href="{{site.baseurl}}{{third_post.url}}">
                         <img class="thumb w-100 ratio-4x3 cover"
                             src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}"
@@ -117,7 +117,7 @@ modern women."
             {%- assign fourth_post = site.posts[3] -%}
             <div class="mb-3 d-flex align-items-center">
                 {% if fourth_post.image %}
-                <div class="col-md-4">
+                <div class="col-md-4 p-0">
                     <a href="{{site.baseurl}}{{fourth_post.url}}">
                         <img class="thumb w-100 ratio-4x3 cover"
                             src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}"
