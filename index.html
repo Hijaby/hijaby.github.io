@@ -20,7 +20,7 @@ modern women."
             <div class="card border-0 mb-4 box-shadow">
                 <a href="{{site.baseurl}}{{latest_post.url}}">
                     <div class="topfirstimage"
-                        style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;">
+                        style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 250px;    background-size: cover;    background-repeat: no-repeat;">
                     </div>
                 </a>
                 <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
@@ -54,7 +54,7 @@ modern women."
             {%- assign second_post = site.posts[1] -%}
             <div class="mb-3 d-flex align-items-center">
                 {% if second_post.image %}
-                <div class="col-md-4 p-0">
+                <div class="col-md-3 p-0">
                     <a href="{{site.baseurl}}{{second_post.url}}">
                         <img class="w-100 ratio-4x3 cover"
                             src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}"
@@ -62,7 +62,7 @@ modern women."
                     </a>
                 </div>
                 {% endif %}
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <h2 class="mb-2 h6 font-weight-bold">
                         <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
@@ -85,7 +85,7 @@ modern women."
             {%- assign third_post = site.posts[2] -%}
             <div class="mb-3 d-flex align-items-center">
                 {% if third_post.image %}
-                <div class="col-md-4 p-0">
+                <div class="col-md-3 p-0">
                     <a href="{{site.baseurl}}{{third_post.url}}">
                         <img class="w-100 ratio-4x3 cover"
                             src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}"
@@ -93,7 +93,7 @@ modern women."
                     </a>
                 </div>
                 {% endif %}
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <h2 class="mb-2 h6 font-weight-bold">
                         <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
@@ -116,7 +116,7 @@ modern women."
             {%- assign fourth_post = site.posts[3] -%}
             <div class="mb-3 d-flex align-items-center">
                 {% if fourth_post.image %}
-                <div class="col-md-4 p-0">
+                <div class="col-md-3 p-0">
                     <a href="{{site.baseurl}}{{fourth_post.url}}">
                         <img class="w-100 ratio-4x3 cover"
                             src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}"
@@ -124,7 +124,7 @@ modern women."
                     </a>
                 </div>
                 {% endif %}
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <h2 class="mb-2 h6 font-weight-bold">
                         <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
