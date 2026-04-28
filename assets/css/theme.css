@@ -1059,3 +1059,7 @@ div.a2a_full_footer {
 .thumb {
 	max-width: 220px!important;
 }
+
+.thumbs {
+	max-width: 140px!important;
+}
