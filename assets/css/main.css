@@ -11051,7 +11051,7 @@ a.text-lightblue:focus {
 .readmore-list {
     padding: 30px;
     background-color: #e8f3ec !important;
-    border-radius: 5px;
+    border : 1px solid #cfdbd3;
     text-align: left;
 }
 
