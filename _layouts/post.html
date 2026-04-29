@@ -77,6 +77,11 @@ layout: default
 				{{ content }}
 			</article>
 
+			<!-- Read More -->
+			<div id="readmore" class="readmore" style="display:none;">
+				{% include readmore.html %}
+			</div>
+
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">
@@ -191,3 +196,6 @@ layout: default
 		</div>
 	</div>
 </div>
+
+<!-- JavaScript -->
+<script src="{{ site.baseurl }}/assets/js/readmore.js"></script>
