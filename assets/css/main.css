@@ -11050,15 +11050,15 @@ a.text-lightblue:focus {
 
 .readmore-list {
     padding: 30px;
-    background-color: #fafafa;
+    background-color: #e8f3ec !important;
     border-radius: 5px;
     text-align: left;
 }
 
 .readmore-title {
     margin-top: 0 !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #03a87c;
 }
 
 /* Item */
@@ -11068,13 +11068,13 @@ a.text-lightblue:focus {
 
 .readmore-item a {
     text-decoration: none;
-    color: #333;
+    color: #03a87c;
     font-size: 17px;
     line-height: 1.5;
 }
 
 .readmore-item a:hover {
-    color: #007bff;
+    color: #212529;
 }
 
 /* Optional bullet */
