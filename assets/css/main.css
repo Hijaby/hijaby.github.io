@@ -11091,10 +11091,8 @@ a.text-lightblue:focus {
 }
 
 .related-posts h5 {
-    border-bottom: 3px solid #ffe51f;
     display: inline-block;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /* Related Grid */
@@ -11114,10 +11112,11 @@ a.text-lightblue:focus {
 .related-item p {
     font-size: 15px;
     margin-top: 8px;
+    color: #212529;
 }
 
 .related-item p:hover {
-    color: #007bff;
+    color: #03a87c;
 }
 
 /* Mobile */
