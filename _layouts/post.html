@@ -32,9 +32,11 @@ layout: default
 				</div>
 				{% if page.image %}
 				<div class="col-md-6 pr-0 align-self-center">
-					<img class="ratio-4x3 cover rounded"
-						src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
-						alt="{{ page.title }}">
+					<a target="_blank" href="https://aridjaya.com">
+						<img class="ratio-4x3 cover rounded"
+							src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
+							alt="{{ page.title }}">
+					</a>
 				</div>
 				{% endif %}
 			</div>
@@ -43,12 +45,8 @@ layout: default
 </div>
 
 
-
-
-
 <div class="container-lg pt-4 pb-4">
 	<div class="row justify-content-center">
-
 
 		<!-- Share -->
 		<div class="col-lg-2 pr-4 mb-4 col-md-12">
@@ -141,6 +139,11 @@ layout: default
 			</div>
 			{% endif %}
 
+			<!-- Related Posts -->
+			<div class="related-posts">
+				{% include relatedposts.html %}
+			</div>
+
 			<!-- Comments -->
 			{% if page.comments != false %}
 			{% include comments.html %}
@@ -163,11 +166,11 @@ layout: default
 				<a class="text-dark" href="{{ site.baseurl }}{{ page.previous.url }}">
 
 					{% if page.previous.image %}
-						{% if page.previous.image contains 'http' %}
-							<img height="30px" class="mr-1" src="{{ page.previous.image }}">
-						{% else %}
-							<img height="30px" class="mr-1" src="{{ site.baseurl }}/{{ page.previous.image }}">
-						{% endif %}
+					{% if page.previous.image contains 'http' %}
+					<img height="30px" class="mr-1" src="{{ page.previous.image }}">
+					{% else %}
+					<img height="30px" class="mr-1" src="{{ site.baseurl }}/{{ page.previous.image }}">
+					{% endif %}
 					{% endif %}
 
 					{{ page.previous.title }}
@@ -182,11 +185,11 @@ layout: default
 					{{ page.next.title }}
 
 					{% if page.next.image %}
-						{% if page.next.image contains 'http' %}
-							<img height="30px" class="ml-1" src="{{ page.next.image }}">
-						{% else %}
-							<img height="30px" class="ml-1" src="{{ site.baseurl }}/{{ page.next.image }}">
-						{% endif %}
+					{% if page.next.image contains 'http' %}
+					<img height="30px" class="ml-1" src="{{ page.next.image }}">
+					{% else %}
+					<img height="30px" class="ml-1" src="{{ site.baseurl }}/{{ page.next.image }}">
+					{% endif %}
 					{% endif %}
 
 				</a>
