@@ -11113,6 +11113,7 @@ a.text-lightblue:focus {
     font-size: 15px;
     margin-top: 8px;
     color: #212529;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .related-item p:hover {
