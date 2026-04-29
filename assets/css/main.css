@@ -11082,7 +11082,7 @@ a.text-lightblue:focus {
 .readmore-item::before {
     content: "› ";
     font-weight: bold;
-    margin-right: 4px;
+    margin-right: 10px;
 }
 
 /*===== Related Posts =====*/
