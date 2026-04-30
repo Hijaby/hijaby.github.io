@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-sidebar
 title: Sitemap
 permalink: "/sitemap.html"
 comments: false
