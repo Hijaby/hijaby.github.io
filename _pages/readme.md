@@ -1,6 +1,6 @@
 ---
-title: "Sitelink"
-permalink: "/sitelink.html"
+title: "readme"
+permalink: "/readme.html"
 ---
 
 # https://hijaby.github.io/
