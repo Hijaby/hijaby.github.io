@@ -6,12 +6,12 @@ image: "/assets/images/screenshot.jpg"
 comments: true
 ---
 
-Welcome to our [**Aridjaya**](https://tiny.cc/smartlynk), your ultimate online destination for a wide range of resources and information. Our mission is to provide you with valuable insights, tools, and content that cater to various interests and needs. Whether you're a student seeking educational resources, an entrepreneur looking for business insights, or simply someone exploring diverse topics, we have something for everyone.
+Welcome to [**Hijaby**](https://tiny.cc/smartlynk), Hijab Beauty is a digital space dedicated to modern modest fashion and hijab inspiration. The platform showcases a wide range of hijab styles, outfit ideas, and fashion trends for women who embrace elegance, comfort, and confidence in their daily look.
 
-At our core, we are committed to delivering quality content, user-friendly tools, and a platform that fosters knowledge, creativity, and growth. Our team of dedicated professionals works tirelessly to keep you informed, entertained, and inspired.
+With a focus on visual inspiration and practical styling ideas, Hijab Beauty curates content that highlights beautiful hijab combinations, seasonal fashion trends, and creative outfit concepts. From casual everyday styles to more refined and aesthetic looks, the goal is to provide a continuous source of inspiration.
 
-We value your presence and the trust you place in us. We are continually evolving, expanding our offerings, and enhancing your online experience. Thank you for being part of our community. Together, we embark on a journey of learning, discovery, and achievement.
+The content is designed for readers who appreciate modest fashion while staying connected to modern style developments. Every post aims to combine simplicity, beauty, and relevance in today’s fashion landscape.
 
 [Get it here](https://tiny.cc/smartlynk)
 
-Made with <i class="fa fa-heart text-danger"></i> by Laila [Laila](https://dub.sh/twiter).
+Made with <i class="fa fa-heart text-danger"></i> by [Laila](https://dub.sh/twiter).
