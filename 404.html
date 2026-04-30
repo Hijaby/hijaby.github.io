@@ -3,7 +3,7 @@ layout: default
 permalink: /404.html
 ---
 
-<div class="container text-center" style="padding:80px 20px;">
+<div class="container text-center" style="padding:60px 20px;">
     <h1 style="font-size:70px; font-weight:bold;"><strong>404</strong></h1>
     <h2 class="mb-3"><strong>Page Not Found :(</strong></h2>
 
@@ -16,7 +16,7 @@ permalink: /404.html
 
     <div class="row">
         {% for post in random_posts %}
-        <div class="col-md-4 mb-4">
+        <div class="col-md-3 mb-4">
 
             <a href="{{ site.baseurl }}{{ post.url }}">
 
@@ -35,7 +35,7 @@ permalink: /404.html
         {% endfor %}
    </div>
 
-    <a href="{{ site.baseurl }}/" class="btn btn-dark mt-3">
+    <a href="{{ site.baseurl }}/" class="btn btn-success mt-3">
         Back to Home
     </a>
 
