@@ -4,7 +4,7 @@ description: 'A modern website for beautiful hijab styles, modest fashion inspir
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/'
-disqus: 'hijabi'
+disqus: 'hijaby'
 email: 'admin@yourdomain.com'
 mailchimp-list: 'https://www.aridjaya.com'
 
