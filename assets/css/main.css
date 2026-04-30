@@ -11056,9 +11056,9 @@ a.text-lightblue:focus {
 }
 
 .readmore-title {
-    margin-top: 0 !important;
     text-transform: capitalize;
     color: #212529;
+    font-size: 1rem;
 }
 
 /* Item */
@@ -11069,7 +11069,7 @@ a.text-lightblue:focus {
 .readmore-item a {
     text-decoration: none;
     color: #03a87c;
-    font-size: 17px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
