@@ -14,4 +14,4 @@ The content is designed for readers who appreciate modest fashion while staying 
 
 [Get it here](https://tiny.cc/smartlynk)
 
-Made with <i class="fa fa-heart text-danger"></i> by [Laila](https://dub.sh/twiter).
+Made with <i class="fa fa-heart text-danger"></i> by [**Laila**](https://dub.sh/twiter).
