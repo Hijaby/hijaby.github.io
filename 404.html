@@ -22,12 +22,12 @@ permalink: /404.html
 
                 {% if post.image %}
                 {% if post.image contains 'http' %}
-                <img src="{{ post.image }}" class="img-fluid ratio-3x4 mb-2">
+                <img src="{{ post.image }}" class="img-fluid ratio-4x3 mb-2">
                 {% else %}
-                <img src="{{ site.baseurl }}/{{ post.image }}" class="img-fluid ratio-3x4 mb-2">
+                <img src="{{ site.baseurl }}/{{ post.image }}" class="img-fluid ratio-4x3 mb-2">
                 {% endif %}
                 {% endif %}
-                <h6 class="text-dark text-left">
+                <h6 class="text-dark text-center">
                     {{ post.title | truncate: 60 }}
                 </h6>
             </a>
