@@ -1,10 +1,9 @@
 ---
-title: "readme"
+title: "Read Me"
 permalink: "/readme.html"
 ---
 
 # https://hijaby.github.io/
-
 https://hijaby.github.io/oversized-hijab-outfit-trends-that-look-effortlessly-cool
 https://hijaby.github.io/smart-layering-hijab-outfits-for-transitional-weather
 https://hijaby.github.io/hijab-outfit-ideas-with-denim-for-casual-style
@@ -120,7 +119,6 @@ https://hijaby.github.io/travel-tips-for-hijabi-women-stay-comfortable-and-styli
 https://hijaby.github.io/building-a-capsule-wardrobe-for-hijabi-women
 https://hijaby.github.io/creative-hijab-styling-ideas-using-layered-textures
 https://hijaby.github.io/earth-tone-hijab-outfits-for-natural-aesthetic
-
 https://hijaby.github.io/minimalist-hijab-style-less-is-more
 https://hijaby.github.io/hijab-outfit-ideas-for-weekend-hangouts
 https://hijaby.github.io/hijab-outfit-ideas-with-soft-denim-for-casual-modern-look
