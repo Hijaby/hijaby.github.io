@@ -3,66 +3,37 @@ layout: default
 permalink: /404.html
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
-
-
 <div class="container text-center" style="padding:80px 20px;">
-
-    <h1 style="font-size:70px; font-weight:bold;">404</h1>
-
-    <h2 class="mb-3">Page Not Found</h2>
+    <h1 style="font-size:70px; font-weight:bold;"><strong>404</strong></h1>
+    <h2 class="mb-3"><strong>Page Not Found :(</strong></h2>
 
     <p class="mb-4">
-        The page you're looking for doesn't exist, but here’s something you might like ✨
+        The page you're looking for doesn't exist, but here's something you might like.
     </p>
 
     <!-- RANDOM POST -->
-    {% assign random_posts = site.posts | sample:6 %}
+    {% assign random_posts = site.posts | sample:12 %}
 
     <div class="row">
-
         {% for post in random_posts %}
         <div class="col-md-4 mb-4">
 
             <a href="{{ site.baseurl }}{{ post.url }}">
 
                 {% if post.image %}
-                    {% if post.image contains 'http' %}
-                        <img src="{{ post.image }}" class="img-fluid rounded mb-2">
-                    {% else %}
-                        <img src="{{ site.baseurl }}/{{ post.image }}" class="img-fluid rounded mb-2">
-                    {% endif %}
+                {% if post.image contains 'http' %}
+                <img src="{{ post.image }}" class="img-fluid ratio-3x4 mb-2">
+                {% else %}
+                <img src="{{ site.baseurl }}/{{ post.image }}" class="img-fluid ratio-3x4 mb-2">
                 {% endif %}
-
-                <h6 class="text-dark">
+                {% endif %}
+                <h6 class="text-dark text-left">
                     {{ post.title | truncate: 60 }}
                 </h6>
-
             </a>
-
         </div>
         {% endfor %}
-
-    </div>
+   </div>
 
     <a href="{{ site.baseurl }}/" class="btn btn-dark mt-3">
         Back to Home
