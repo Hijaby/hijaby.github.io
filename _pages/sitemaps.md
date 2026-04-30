@@ -1,7 +1,7 @@
 ---
-title: "Site Link"
-layout: page-sidebar
-permalink: "/sitelink.html"
+layout: page
+title: "Sitemaps"
+permalink: "/sitemaps.html"
 comments: false
 ---
 
